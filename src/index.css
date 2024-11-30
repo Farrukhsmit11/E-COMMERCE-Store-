@@ -1,3 +1,7 @@
+*{
+    font-family: "Poppins";
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,6 +15,6 @@
     align-items: centernpm;
 }
 
-.search-logo{
-    margin-top: -4px;
-}
+
+
+ 

@@ -1,9 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
+import Home from './components/Home'
+// import ProductCard from './components/ProductCard'
+import FlashSales from './components/FlashSales'
+import Products from './Products'
+import Footer from './components/Footer'
+
 
 
 
@@ -11,8 +15,14 @@ function App() {
 
   return (
     <>
-    <Banner />
-    <Navbar/>
+      <Banner />
+      <Navbar />
+      <Home />
+      <FlashSales />
+      <Products />
+      <Footer />
+      
+
     </>
   )
 }
