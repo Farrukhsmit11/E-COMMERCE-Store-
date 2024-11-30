@@ -1,7 +1,6 @@
-// import QrCodeImg from "../assets/images/footer/Qrcode.png";
-// import GooglePlayImg from "../assets/images/footer/google-play-store.png";
-// import AppStoreImg from "../assets/images/footer/appstore.png";
-
+import img from "../assets/Images/Qrcode 1.png"
+import googleplay from "../assets/Images/google play.png"
+import applestore from "../assets/Images/apple store.png"
 import { LiaFacebookF } from "react-icons/lia";
 import { FiTwitter } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
@@ -57,12 +56,12 @@ export default function Footer() {
           </p>
           <div className="flex gap-2 items-center">
             <div>
-              {/* <img src={QrCodeImg} alt="" /> */}
+              <img src={img} />
             </div>
-            { <div className="flex flex-col gap-1">
-              {/* <img src={GooglePlayImg} alt="" /> */}
-              {/* <img src={AppStoreImg} alt="" /> */}
-            </div> }
+            {<div className="flex flex-col gap-1">
+              {<img src={googleplay} />}
+              {<img src={applestore} alt="" />}
+            </div>}
           </div>
           <div className="flex gap-6 text-xl pt-2">
             <LiaFacebookF />
