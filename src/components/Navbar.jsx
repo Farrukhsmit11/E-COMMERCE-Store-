@@ -1,6 +1,8 @@
 import { CiShoppingCart } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
+import { CiHeart } from "react-icons/ci";
+
 
 
 export default function Navbar() {
@@ -21,8 +23,11 @@ export default function Navbar() {
                 <a href="#signup" className="hover:text-gray-500">Sign Up</a>
             </nav>
             <div className="flex items-center gap-2">
-                <CiUser className="text-2xl" />
-                <CiShoppingCart className="text-3xl" />
+            <CiHeart className="text-3xl" />
+            <CiShoppingCart className="text-3xl"/>
+                <CiUser className="w-7 h-7 bg-red-500 rounded-full px-2 text-white " />
+                
+                
             </div>
 
         </div>

@@ -10,7 +10,7 @@ import { VscSend } from "react-icons/vsc";
 
 export default function Footer() {
   return (
-    <div className="bg-black text-white min-h-96 mt-8 p-4">
+    <div className="bg-black text-white min-h-96 mt-8 p-9">
       <div className="container-x flex-wrap gap-3 flex justify-between items-baseline text-start pt-[72px]">
         <div className="flex flex-col gap-4">
           <h2 className="font-bold text-2xl ">Exclusive</h2>
@@ -37,9 +37,9 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <h3 className=" text-[20px] font-medium">Account</h3>
           <p className="pt-1.5 footer_text">My Account</p>
-          <p className="footer_text">Login / Register</p>
-          <p className="footer_text">Cart</p>
-          <p className="footer_text">Wishlist</p>
+          <a href="#"><p className="footer_text">Login / Register</p></a>
+          <a href="#"><p className="footer_text">Cart</p></a>
+          <a href="#"><p className="footer_text">Wishlist</p></a>
           <p className="footer_text">Shop</p>
         </div>
         <div className="flex flex-col gap-4">

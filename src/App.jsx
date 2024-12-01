@@ -5,9 +5,9 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 // import ProductCard from './components/ProductCard'
 import FlashSales from './components/FlashSales'
-import Products from './Products'
+// import Products from './Products'
 import Footer from './components/Footer'
-
+import NewArrivalGrid from './components/NewArrivalGrid'
 
 
 
@@ -19,9 +19,8 @@ function App() {
       <Navbar />
       <Home />
       <FlashSales />
-      <Products />
+      <NewArrivalGrid />
       <Footer />
-      
 
     </>
   )

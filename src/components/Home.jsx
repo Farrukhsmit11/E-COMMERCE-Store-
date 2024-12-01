@@ -1,4 +1,5 @@
 import img from '../assets/Images/Frame 560.png'
+import NewArrivalGrid from './NewArrivalGrid'
 
 const SidebarWithBanner = () => {
   return (
