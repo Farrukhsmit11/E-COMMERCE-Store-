@@ -22,6 +22,7 @@ const SidebarWithBanner = () => {
         <img className='mt-6' src={img} />
       </div>
     </div>
+    
   )
 }
 

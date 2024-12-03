@@ -8,6 +8,10 @@ import FlashSales from './components/FlashSales'
 // import Products from './Products'
 import Footer from './components/Footer'
 import NewArrivalGrid from './components/NewArrivalGrid'
+import ProductGrid from './components/ProductGrid'
+
+
+
 
 
 
@@ -20,6 +24,7 @@ function App() {
       <Home />
       <FlashSales />
       <NewArrivalGrid />
+      <ProductGrid />
       <Footer />
 
     </>

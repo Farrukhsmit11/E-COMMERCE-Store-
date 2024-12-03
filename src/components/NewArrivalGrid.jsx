@@ -1,7 +1,7 @@
-import img1 from "../assets/images/ps5.png";
-import img2 from "../assets/images/baji.png";
-import img3 from "../assets/images/speaker.png";
-import img4 from "../assets/images/perfume.png";
+import ps5 from "../assets/images/ps5.png";
+import baji from "../assets/images/baji.png";
+import speaker from "../assets/images/speaker.png";
+import perfume from "../assets/images/perfume.png";
 
 export default function NewArrivalGrid() {
   return (
@@ -9,7 +9,7 @@ export default function NewArrivalGrid() {
       <div className="bg-[#0D0D0D] relative text-gray-200 rounded col-span-2 row-span-2">
         <img
           className="object-contain w-full h-full "
-          src={img1}
+          src={ps5}
           alt="product image"
         />
 
@@ -26,7 +26,7 @@ export default function NewArrivalGrid() {
       <div className="relative bg-[#0D0D0D] text-gray-200 rounded col-span-2">
         <img
           className="object-contain  h-full w-full"
-          src={img2}
+          src={baji}
           alt="product image"
         />
 
@@ -43,7 +43,7 @@ export default function NewArrivalGrid() {
       <div className="bg-[#0D0D0D] relative group text-gray-200 rounded">
         <img
           className="object-contain group-hover:scale-110 transition duration-300 h-full w-full"
-          src={img3}
+          src={speaker}
           alt="product image"
         />
         <div className="absolute gap-2 flex-col flex bottom-0 p-6">
@@ -54,7 +54,7 @@ export default function NewArrivalGrid() {
           <a className="underline" href="#">
             Shop Now
           </a>
-        </div>{" "}
+        </div>
       </div>
 
       <div className="bg-black">
@@ -67,7 +67,7 @@ export default function NewArrivalGrid() {
         >
           <img
             className="object-contain  h-full w-full"
-            src={img4}
+            src={perfume}
             alt="product image"
           />
 
